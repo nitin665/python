@@ -1,0 +1,11 @@
+import turtle
+turtle.setup(800, 600)
+window=turtle.Screen()
+window.title('absolute positioning')
+t=turtle.getturtle()
+t.hideturtle()
+t.setposition(100,0)
+t.setposition(100,100)
+t.setposition(0,100)
+t.setposition(0,0)
+window.exitonclick()
